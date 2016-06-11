@@ -138,6 +138,10 @@ import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
+import com.android.settings.dui.FlingSettings;
+import com.android.settings.dui.Navbar;
+import com.android.settings.dui.PulseSettings;
+import com.android.settings.dui.SmartbarSettings;
 
 import cyanogenmod.app.CMContextConstants;
 import org.xmlpull.v1.XmlPullParser;
@@ -380,7 +384,11 @@ public class SettingsActivity extends Activity
             ContributorsCloudFragment.class.getName(),
             NotificationManagerSettings.class.getName(),
             LiveLockScreenSettings.class.getName(),
-            WeatherServiceSettings.class.getName()
+            WeatherServiceSettings.class.getName(),
+            Navbar.class.getName(),
+            FlingSettings.class.getName(),
+            PulseSettings.class.getName(),
+            SmartbarSettings.class.getName()
     };
 
 
