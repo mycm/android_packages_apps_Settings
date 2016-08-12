@@ -203,7 +203,7 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_RESET, 0, R.string.reset)
+        menu.add(0, MENU_RESET, 0, R.string.smartbar_factory_reset_title)
                 .setIcon(com.android.internal.R.drawable.ic_menu_refresh)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
         menu.add(0, MENU_SAVE, 0, R.string.smartbar_backup_current_config_title)

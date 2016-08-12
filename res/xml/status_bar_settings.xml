@@ -76,7 +76,7 @@
     <!-- Network traffic -->
     <PreferenceScreen
         android:key="network_traffic"
-        android:fragment="com.android.settings.candy.Traffic"
+        android:fragment="com.android.settings.my.Traffic"
         android:title="@string/network_traffic_title" />
 
 </PreferenceScreen>
