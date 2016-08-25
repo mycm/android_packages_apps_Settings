@@ -79,4 +79,9 @@
         android:fragment="com.android.settings.my.Traffic"
         android:title="@string/network_traffic_title" />
 
+    <!-- Bettery Bar -->
+     <PreferenceScreen
+          android:key="battery_bar"
+          android:fragment="com.android.settings.my.BatteryBar"
+          android:title="@string/battery_bar" />
 </PreferenceScreen>
